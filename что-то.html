@@ -1,0 +1,68 @@
+<html> 
+<head> 
+    <title>Сайт "Картошка"</title> 
+    <style> 
+        body { 
+            font-family: Arial, sans-serif; 
+            background-image: url('https://techrocks.ru/wp-content/uploads/2021/04/night-3078326_1280-min.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            margin: 0; 
+            padding: 0; 
+        } 
+ 
+        .container { 
+            max-width: 800px; 
+            margin: 50px auto; 
+            padding: 20px; 
+            background-color: rgba(255, 255, 255, 0.8); 
+            border-radius: 10px; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+            text-align: center; 
+        } 
+ 
+        h1 { 
+            color: #000000; 
+            padding: 10px; 
+        } 
+ 
+        p { 
+            color: #5e5e5e; 
+            font-size: 18px; 
+            line-height: 1.5; 
+        } 
+ 
+        .button { 
+            background-color: #3f51b5; 
+            color: #fff; 
+            font-size: 16px; 
+            font-weight: bold; 
+            padding: 10px 20px; 
+            border: none; 
+            border-radius: 4px; 
+            cursor: pointer; 
+            transition: background-color 0.3s; 
+        } 
+ 
+        .button:hover { 
+            background-color: #303f9f; 
+        } 
+    </style> 
+    <script> 
+        function showConfirmation() { 
+            var result = confirm("Хотите посмотреть этот мультфильм?"); 
+            if (result) { 
+                window.location.href = "file:///C:/Users/%D0%90%D1%80%D1%82%D1%91%D0%BC/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%20%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D0%BE%D0%B2.html"; 
+                alert("Приятного просмотра!"); 
+            } 
+        } 
+    </script> 
+</head> 
+<body> 
+    <div class="container"> 
+        <h1>Картошка</h1> 
+        <p>Добро пожаловать на сайт "Картошка"! Здесь вы можете найти множество интересных мультфильмов для просмотра.</p> 
+        <button class="button" onclick="showConfirmation()">Смотреть мультфильмы</button> 
+    </div> 
+</body> 
+</html>
